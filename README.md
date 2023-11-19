@@ -17,7 +17,7 @@
 ```bash
 git clone https://github.com/AntonRudnikovskiy/url_shortener_service.git
 cd url_shortener_service
-docker build -t url_shortener_service
+docker build -t url_shortener_service .
 docker run -p 8080:8080 url_shortener_service
 ```
 
